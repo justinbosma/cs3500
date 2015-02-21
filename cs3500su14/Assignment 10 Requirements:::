@@ -1,0 +1,142 @@
+Assignment 10 Requirements:::
+Your documents should begin with a block that lists:
+
+    1.The names of all students on your team
+    2.The email addresses of all students on your team
+    3.The team number that you were given
+    4.Any remarks that you wish to make to the instructor
+
+Grading (100 points):
+
+    -completeness of the scenarios, use cases, domains-relations-constraints, and/or requirements
+    -well-structured collaboration between the modules
+    -well-defined constraints/requirements
+    -quality of the presentation within pdf file(s)
+
+
+
+    ____              __                 ____                    __      
+   / __ \____  ____  / /_____  __  __   / __ \____  ____  __  __/ /______
+  / / / / __ \/ __ \/ //_/ _ \/ / / /  / / / / __ \/ __ \/ / / / __/ ___/
+ / /_/ / /_/ / / / / ,< /  __/ /_/ /  / /_/ / /_/ / / / / /_/ / /_(__  ) 
+/_____/\____/_/ /_/_/|_|\___/\__, /  /_____/\____/_/ /_/\__,_/\__/____/  
+                            /____/                                       
+
+
+
+GradeBook13
+
+
+1. Introduction
+2. Use Cases
+3. Non-Functional Requirements
+4. Functional Requirements
+5. Development & Target Platforms 
+6. UML Diagram
+7. Module Dependency Diagram 
+8. Team Member Contributions
+9. Possible Extensions
+
+
+
+------------------------------------------------------------------------------
+1. Introduction
+
+	Bakery Management System
+		Console based interactive Bakery Management System for management of
+		inventory, ordering, and customer information.
+
+		BMS tracks customer information for contacting and billing customers.
+		BMS tracks Loyalty Card purchases and rewards.
+		BMS tracks and stores all order information and presents reports
+		to Bakery Manager to understand sales better.
+		BMS tracks all of available menu items.
+		BMS tracks all items ordered by a given customer.
+		BMS calculates order totals.
+		BMS calculates Loyalty Card totals.
+
+		Features overview:
+		Design overview:
+		Objects in design/Relations:
+		Possible Feature extensions:
+
+		"how the system can be initialized and updated, and what reports 
+		can the system generate—or what queries can the course instructor ask."
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+For this assignment, you should include at least two of the following 
+	approaches:
+
+    -Use cases, scenarios, or user stories. These are described in Liskov 
+    	and/or the resources listed above.
+
+    -Define ‘domains’, the ‘relations’ among them, and ‘constraints’ given 
+    	either as equations or written in natural language. These documents 
+    	and how they are created are described in Liskov on pages 278-281.
+
+    -List functional and non-functional requirements
+
+------------------------------------------------------------------------------
+
+——————————————————————–
+Requirements document:
+
+
+
+There are many different approaches to requirements engineering—some of 
+	which are discussed in Liskov. Other approaches can be seen in:
+
+    -http://agile.csc.ncsu.edu/SEMaterials/UseCaseRequirements.pdf
+
+    -Slides from Class 20 on 6.9.2014
+
+
+For this assignment, you should include at least two of the following 
+	approaches:
+
+    -Use cases, scenarios, or user stories. These are described in Liskov 
+    	and/or the resources listed above.
+
+    -Define ‘domains’, the ‘relations’ among them, and ‘constraints’ given 
+    	either as equations or written in natural language. These documents 
+    	and how they are created are described in Liskov on pages 278-281.
+
+    -List functional and non-functional requirements
+
+------------------------------------------------------------------------------
+
+Design document:
+
+Design the modules of this system together with expected class structure. 
+Document the higher level design with a module dependency diagram and a 
+UML diagram or CRC cards for the class structure.
+
+Again, bite only what you can chew. Design the system in at least two parts: 
+the basic system that you can implement easily, and its extension that covers 
+the minimum requirements specified earlier. The extension should show how the 
+original design can be upgraded to the more complex one.
+
+
+———————————————————————
+
+For this assignment, you will submit the following:
+
+    -Cover page with your names, email addresses, team number, and a table of 
+    	contents of what is in the document(s)
+
+    -Requirements specification document, which will include at least two of 
+    	the following:
+
+	    -Scenarios or use cases document
+    	-Domains - Relations - Constraints
+	    -List functional and non-functional requirements
+
+    -Module dependency diagram
+    -CRC cards or UML diagram
+    -A written document explicitly stating what each team member contributed to the assignment.
+
+You can combine all of these into one document, or submit a zip file with all documents in it. Name your cover page BakeryYOUR-TEAM-NUMBER.pdf.
+———————————————————————
+
+A sample document is in the course directory: /course/cs3500su14/Assignments/A10/

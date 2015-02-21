@@ -1,0 +1,32 @@
+Signature:
+
+    Public static methods (of the Abc class):
+        defg     : Abc x int  -->  int
+        hijk     : Abc x int  -->  Abc
+        lmno     : Abc x int  -->  Abc
+        pqrs     : int        -->  Abc
+        tuvw     : Abc        -->  int
+
+Algebraic Specification: 
+    Abc.defg (Abc.lmno (u, k), n)
+        =  Abc.defg (u, n)                      if n < Abc.tuvw (u)
+    Abc.defg (Abc.lmno (u, k), n)
+        =  k                                    if n == Abc.tuvw (u)
+    Abc.defg (Abc.lmno (u, k), n)
+        =  n                                    if n > Abc.tuvw (u)
+    Abc.defg (Abc.pqrs (k), n)
+        =  3
+
+    Abc.hijk (Abc.lmno (u, k), n)
+        =  Abc.lmno (Abc.hijk (u, n), k)        if n < Abc.tuvw (u)
+    Abc.hijk (Abc.lmno (u, k), n)
+        =  Abc.lmno (u, n + 1)                  if n == Abc.tuvw (u)
+    Abc.hijk (Abc.lmno (u, k), n)
+        =  u                                    if n > Abc.tuvw (u)
+    Abc.hijk (Abc.pqrs (k), n)
+        =  Abc.lmno (Abc.pqrs (0), k)
+
+    Abc.tuvw (Abc.lmno (u, k))
+        =  1 + Abc.tuvw (u)
+    Abc.tuvw (Abc.pqrs (k))
+        =  0

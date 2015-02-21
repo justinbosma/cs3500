@@ -1,0 +1,34 @@
+REQUIREMENTS : CLASS NOTES ::
+
+Slides today : Class 20 ::
+
+Assignment 10
+Requirements/Design
+
+
+Non- Functional Requirements
+
+Qualities
+ - Reliability
+ - Availability
+ - Performance 
+ - Security
+ - Maintainability
+ - Portability
+
+ - Constraints
+
+Requirements - What
+Design - How
+Implementation - Writing code
+Testing - Executing/debugging
+Maintenance - 
+
+Modularity
+
+Cohesion - how modules make sense together
+Coupling - how modes communicate
+
+
+OO-Design Principles::
+Substitution Principle

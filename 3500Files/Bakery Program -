@@ -1,0 +1,87 @@
+Bakery Program - Donkey Donuts
+
+Classes:
+1. Bakery
+2. Customer
+3. Order
+4. Item
+
+Bakery:
+Main program for Bakery Program.
+Contains all User Interfaces/Menus.
+Specs from Description
+		See all Items
+			Total Items
+			By Customer #
+		Calculate Order Totals
+			By Order #
+			By Customer #
+			By Item #
+		Track Loyalty Card Totals
+		
+	Menus:
+		Bakery Operations:
+			Login: (Bakery Manager)
+				Customer Operations:
+					Track Loyalty Card Totals
+					Add a new customer
+					Edit an existing customer
+					Remove a customer
+				Order Operations:
+					See Order Totals
+						By Order #
+						By Customer #
+						By Item #
+					Add a new order
+					Edit an existing order
+					Remove a order
+				Item Operations:
+					See Item Totals
+						Total Inventory
+						By Customer #
+					Add a Menu Item
+					Edit an existing Menu Item
+					Remove a Menu Item
+
+Customer:
+ADT for Customer Objects
+Fields/Data:
+	CustID: The unique ID for each customer (PK)
+	LoyaltyMember: Is the Customer a Loyalty Card Member?
+	CustFirstName: First Name
+	CustMidName: Middle Name
+	CustLastName: Last Name
+	CustAddress: Street Address
+	CustCity: City
+	CustZIP: Zip Code
+	CustPhoneAC: Phone Area Code (3 digits)
+	CustPhoneEX: Phone Exchange (3 digits)
+	CustPhoneNum: Phone Number (4 digits)
+
+	CustOrdHist: Customer Order History {ArrayList(OrdID)}
+	CustBalance: Customer Billing Balance
+
+Order:
+ADT for Order Objects
+Fields/Data:
+	OrdID; //The unique ID for each Order (PK)
+	CustID; //The Customer who is ordering
+	OrdItems; //The items in this order {ArrayList(ItemID)}
+	OrdDate; //The date the order is placed
+	OrdTime; //The time the order is placed
+	OrdDatePickup; //The date the order is placed
+	OrdTimePickup; //The time the order is placed
+	OrdTotal; //The total price of this order
+	OrdComments; //Additional Comments for this order
+
+Item:
+ADT for Items
+Fields/Data:
+	ItemID: The unique ID for each Item (PK)
+	ItemName: The name of the item
+	ItemDesc: A description of the item
+	ItemCost: The cost of the item to the Bakery
+	ItemPrice: The price at which the Bakery sells the item
+
+
+
